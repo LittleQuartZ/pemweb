@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pemrograman Web - eps 2</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .fredoka-reguler {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 400;
+      }
+
+      .fredoka-bold {
+      }
+
+      :root {
+        --dark-moss-green: hsla(74, 32%, 32%, 1);
+        --pakistan-green: hsla(88, 38%, 15%, 1);
+        --cornsilk: hsla(52, 94%, 94%, 1);
+        --earth-yellow: hsla(32, 65%, 62%, 1);
+        --tigers-eye: hsla(28, 67%, 44%, 1);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: "Fredoka", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings: "wdth" 700;
+      }
+
+      header h1 {
+        background-color: var(--cornsilk);
+        padding: 12px;
+        color: var(--tigers-eye);
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      nav a {
+        background-color: var(--earth-yellow);
+        color: var(--cornsilk);
+        width: 100%;
+        text-align: center;
+        padding: 12px;
+        border-right: 2px solid var(--cornsilk);
+      }
+
+      nav a:last-child {
+        border-right: none;
+      }
+
+      main {
+        margin: 48px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      main h1 {
+        color: var(--dark-moss-green);
+      }
+
+      main h2 {
+        color: var(--pakistan-green);
+        margin-bottom: 20px;
+      }
+
+      main button {
+        background-color: var(--earth-yellow);
+        color: var(--cornsilk);
+        padding: 8px 12px;
+        border: 2px solid var(--tigers-eye);
+      }
+    </style>
+  </head>
+
+  <body class="fredoka-reguler">
+    <header>
+      <h1>Meaningful Heading</h1>
+    </header>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="product.html">Product</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+      <h1>Lorem ipsum dolor sit amet.</h1>
+      <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
+      <button>Lorem, ipsum.</button>
+    </main>
+
+    <pre>
+    <code>
+      &lt;h1&gt;Macam-macam Tipografi HTML&lt;/h1&gt;
+      &lt;hr&gt;
+      &lt;h1&gt;Heading 1&lt;/h1&gt;
+      &lt;h2&gt;Heading 2&lt;/h2&gt;
+      &lt;h3&gt;Heading 3&lt;/h3&gt;
+      &lt;h4&gt;Heading 4&lt;/h4&gt;
+      &lt;h5&gt;Heading 5&lt;/h5&gt;
+      &lt;h6&gt;Heading 6&lt;/h6&gt;
+
+      &lt;p&gt;Paragraph&lt;/p&gt;
+
+      &lt;span&gt;Text&lt;/span&gt;, 
+      &lt;b&gt;Bold&lt;/b&gt;, 
+      &lt;strong&gt;Strong&lt;/strong&gt;, 
+      &lt;i&gt;Italic&lt;/i&gt;, 
+      &lt;em&gt;Emphatized&lt;/em&gt;, 
+      &lt;small&gt;Small&lt;/small&gt;,
+      &lt;mark&gt;Mark&lt;/mark&gt;, 
+      &lt;del&gt;Delete&lt;/del&gt; and &lt;ins&gt;Insert&lt;/ins&gt;, 
+      &lt;u&gt;Underline&lt;/u&gt;
+    </code>
+    </pre>
+  </body>
+</html>
