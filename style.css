@@ -1,0 +1,176 @@
+:root {
+  --dark-moss-green: hsla(74, 32%, 32%, 1);
+  --pakistan-green: hsla(88, 38%, 15%, 1);
+  --cornsilk: hsla(52, 94%, 94%, 1);
+  --earth-yellow: hsla(32, 65%, 62%, 1);
+  --tigers-eye: hsla(28, 67%, 44%, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bebas-neue {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header h1 {
+  background-color: var(--cornsilk);
+  padding: 12px;
+  color: var(--tigers-eye);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: var(--earth-yellow);
+  color: var(--cornsilk);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  border-right: 2px solid var(--cornsilk);
+
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:last-child {
+  border-right: none;
+}
+
+main {
+  margin: 48px 0;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#home h1 {
+  color: var(--dark-moss-green);
+}
+
+#home h2 {
+  color: var(--pakistan-green);
+  margin-bottom: 20px;
+}
+
+#home button {
+  background-color: var(--earth-yellow);
+  color: var(--cornsilk);
+  padding: 8px 12px;
+  border: 2px solid var(--tigers-eye);
+}
+
+pre code {
+  font-family: monospace;
+}
+
+#about-owner {
+  display: flex;
+  padding: 0 48px;
+  align-items: start;
+}
+
+#about-owner img {
+  margin-left: auto;
+  width: 128px;
+}
+
+#about-owner div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+#about-owner div h1 {
+  font-size: 48px;
+}
+
+hr {
+  height: 2px;
+  border: 0;
+  margin: 48px;
+  background-color: var(--earth-yellow);
+}
+
+#about-players {
+  padding: 0 48px;
+}
+
+#about-players h1 {
+  font-size: 48px;
+}
+
+#about-players #about-players-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  margin: 24px 0;
+}
+
+#about-players .player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+#about-players .player h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media (width <= 64rem) {
+  #about-players #about-players-flex {
+    justify-content: space-evenly;
+  }
+
+  #about-players h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #about-owner {
+    /*display: flex;*/
+    /*padding: 0 48px;*/
+    /*align-items: start;*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #about-owner img {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #about-owner div {
+    margin-left: 0;
+  }
+
+  #about-owner div h1 {
+    text-align: center;
+  }
+}

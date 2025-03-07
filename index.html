@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,99 +8,19 @@
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
 
-    <style>
-      .fredoka-reguler {
-        font-family: "Fredoka", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings: "wdth" 400;
-      }
-
-      :root {
-        --dark-moss-green: hsla(74, 32%, 32%, 1);
-        --pakistan-green: hsla(88, 38%, 15%, 1);
-        --cornsilk: hsla(52, 94%, 94%, 1);
-        --earth-yellow: hsla(32, 65%, 62%, 1);
-        --tigers-eye: hsla(28, 67%, 44%, 1);
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6 {
-        font-family: "Fredoka", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 700;
-        font-style: normal;
-        font-variation-settings: "wdth" 700;
-      }
-
-      header h1 {
-        background-color: var(--cornsilk);
-        padding: 12px;
-        color: var(--tigers-eye);
-        text-align: center;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-evenly;
-      }
-
-      nav a {
-        background-color: var(--earth-yellow);
-        color: var(--cornsilk);
-        width: 100%;
-        text-align: center;
-        padding: 12px;
-        border-right: 2px solid var(--cornsilk);
-      }
-
-      nav a:last-child {
-        border-right: none;
-      }
-
-      main {
-        margin: 48px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
-
-      main h1 {
-        color: var(--dark-moss-green);
-      }
-
-      main h2 {
-        color: var(--pakistan-green);
-        margin-bottom: 20px;
-      }
-
-      main button {
-        background-color: var(--earth-yellow);
-        color: var(--cornsilk);
-        padding: 8px 12px;
-        border: 2px solid var(--tigers-eye);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body class="fredoka-reguler">
+  <body>
     <header>
-      <h1>Meaningful Heading</h1>
+      <h1 class="bebas-neue">Meaningful Heading</h1>
     </header>
 
     <nav>
@@ -110,8 +30,8 @@
       <a href="contact.html">Contact</a>
     </nav>
 
-    <main>
-      <h1>Lorem ipsum dolor sit amet.</h1>
+    <main id="home">
+      <h1 class="bebas-neue">Lorem ipsum dolor sit amet.</h1>
       <h2>Lorem ipsum dolor sit amet, consectetur adipisicing.</h2>
       <button>Lorem, ipsum.</button>
     </main>
